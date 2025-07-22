@@ -80,11 +80,12 @@
 - If a clause wraps to another line, indent the continuation line by one tab:
 
     ```sql
-    SELECT e.FirstName, e.LastName, l.Name, s.Name, d.Name
+    SELECT e.FirstName, e.LastName, l.Name, s.Name, d.Name,
+        d.CreatedOn, d,CreatedByUserID
     FROM Department d
-    INNER JOIN Sector s ON d.DepartmentID = s.DepartmentID
-    INNER JOIN Laboratory l ON s.SectorID = l.SectorID
-    INNER JOIN Employee e ON l.LaboratoryID = e.LaboratoryID
+        INNER JOIN Sector s ON d.DepartmentID = s.DepartmentID
+        INNER JOIN Laboratory l ON s.SectorID = l.SectorID
+        INNER JOIN Employee e ON l.LaboratoryID = e.LaboratoryID
     ```
 
 - **Never use `SELECT *`**. Always specify only the columns needed.
