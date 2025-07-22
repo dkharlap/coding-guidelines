@@ -1,6 +1,6 @@
-# Database Coding Conventions
+# Database Coding Guidelines
 
-## 1. General Coding Conventions
+## 1. General Coding Guidelines
 
 - Use **stored procedures** instead of inline SQL in application code to leverage performance and security benefits.
 
