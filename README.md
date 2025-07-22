@@ -1,1 +1,3 @@
-# coding-guidelines
+# Naming Conventions and Coding Guidelines
+
+This repository provides a structured set of naming conventions and development guidelines aimed at maintaining code consistency, readability, and long-term maintainability. Currently, the repository includes comprehensive naming standards for SQL Server, covering objects such as tables, columns, views, stored procedures, user-defined functions, triggers, and indexes. Future additions will expand these guidelines to other database systems, development environments, and documentation practices, ensuring broad applicability and adaptability across projects.
