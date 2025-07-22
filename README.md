@@ -1,3 +1,3 @@
-# Naming Conventions and Coding Guidelines
+# Database Naming Conventions and Coding Guidelines
 
 This repository contains database coding standards and naming conventions designed to promote consistency, clarity, and maintainability across your database systems. It outlines best practices for naming and structuring database objects to help developers and DBAs avoid common pitfalls like reserved keywords, ambiguous abbreviations, or inconsistent naming, that often lead to confusion or technical debt in large-scale systems. While focused on SQL Server it is also broadly applicable to other mainstream relational databases with minimal adjustments. 
