@@ -1,4 +1,4 @@
-# Database objects naming conventions
+# Database naming conventions
 
 ## 1. General naming rules
 
